@@ -5,19 +5,19 @@ let jsonDatabase = [
     "platform": "Youtube",
     "pic": "https://p1.pxfuel.com/preview/386/964/836/youtube-laptop-notebook-online-royalty-free-thumbnail.jpg",
     "link": "youtube.html",
-    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus turpis massa tincidunt dui ut. "
+    "para": "Take a look at how Youtube's algorithm controls the content you consume. Click on the arrow for more info."
   },
   {
     "platform": "Facebook",
     "pic": "https://live.staticflickr.com/65535/51014491501_4ca3ac7f96_b.jpg",
     "link": "facebook.html",
-    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus turpis massa tincidunt dui ut. "
+    "para": "Learn more about how Facebook takes advantage of its users. Click on the arrow for more info."
   },
   {
     "platform": "Instagram",
     "pic": "https://images.pexels.com/photos/5744248/pexels-photo-5744248.jpeg?cs=srgb&dl=pexels-solen-feyissa-5744248.jpg&fm=jpg",
     "link": "instagram.html",
-    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus turpis massa tincidunt dui ut. "
+    "para": "Learn the ways in which Instagram's algorithm works. Click on the arrow for more info."
   }
 ]
 
@@ -48,11 +48,10 @@ function createElementProper(incomingJSON) {
     arrow.setAttribute("class", "fa fa-arrow-circle-right");
     newContentLink.appendChild(arrow);
 
-
-  let newContentPic = document.createElement("IMG");
-  newContentPic.classList.add("contentPic");
-  newContentPic.src = incomingJSON["pic"];
-  newContentElement.appendChild(newContentPic);
+  // let newContentPic = document.createElement("IMG");
+  // newContentPic.classList.add("contentPic");
+  // newContentPic.src = incomingJSON["pic"];
+  // newContentElement.appendChild(newContentPic);
 
   let newContentPara = document.createElement("p");
   newContentPara.classList.add("contentPara");

@@ -167,3 +167,9 @@ body * {
   justify-content: center;
   align-items: center;
 }
+
+.contentPara {
+  margin-top: 5px;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
