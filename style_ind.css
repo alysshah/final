@@ -234,3 +234,12 @@ iframe {
 .footer a:hover {
   color: #f5ecdb;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+  .navbar a, .dropdown .dropbtn, .footer a {
+    font-size: 40px;
+  }
+
+}

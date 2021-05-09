@@ -175,7 +175,7 @@ body * {
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
   #contentGrid {
     padding: 30px;
     grid-gap: 15px;
@@ -200,7 +200,11 @@ body * {
   }
 
   .right p, .right .headerbtn {
-    font-size: 18px;
+    font-size: 25px;
+  }
+
+  .navbar a, .dropdown .dropbtn {
+    font-size: 40px;
   }
 
 }
