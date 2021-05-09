@@ -128,16 +128,15 @@ span {
 .container {
   display: flex;
   padding: 35px;
+  align-items: center;
 }
 
 .vid {
-  width: 50%;
   padding-left: 50px;
 }
 
 .text {
-  width: 50%;
-  padding-right: 50px;
+  padding: 0px 50px;
 }
 
 .people {
@@ -206,4 +205,11 @@ hr {
 
 .footer a:hover {
   color: #f5ecdb;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .container {
+    flex-direction: column;
+  }
 }

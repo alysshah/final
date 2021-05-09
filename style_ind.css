@@ -204,6 +204,20 @@ iframe {
 
 
 
+.imagediv {
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.imagediv img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .footer {
   padding: 40px;
   background-color: black;

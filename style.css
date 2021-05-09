@@ -173,3 +173,34 @@ body * {
   font-size: 18px;
   /* font-weight: bold; */
 }
+
+
+@media screen and (max-width: 990px) {
+  #contentGrid {
+    padding: 30px;
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .headerbig {
+    font-size: 60px;
+  }
+
+  .right p, .right .headerbtn {
+    font-size: 18px;
+  }
+
+}
