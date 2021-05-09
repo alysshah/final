@@ -14,10 +14,10 @@ let jsonDatabase = [
     "para": "Learn more about how Facebook takes advantage of its users. Click on the arrow for more info."
   },
   {
-    "platform": "Instagram",
+    "platform": "Google",
     "pic": "https://images.pexels.com/photos/5744248/pexels-photo-5744248.jpeg?cs=srgb&dl=pexels-solen-feyissa-5744248.jpg&fm=jpg",
-    "link": "instagram.html",
-    "para": "Learn the ways in which Instagram's algorithm works. Click on the arrow for more info."
+    "link": "google.html",
+    "para": "Learn the ways in which Google's algorithm works. Click on the arrow for more info."
   }
 ]
 
