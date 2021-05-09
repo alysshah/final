@@ -153,8 +153,15 @@ hr {
   flex-direction: column;
   background-color: black;
   padding: 30px;
-  margin: 0px 30px;
+  margin: 30px;
   width: 230px;
+}
+
+.yo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .pfp {
@@ -208,8 +215,39 @@ hr {
 }
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1000px) {
   .container {
     flex-direction: column;
   }
+
+  .yo {
+    grid-template-columns: auto;
+  }
+
+  .person {
+    width: 450px;
+  }
+
+  .pfp img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .navbar a, .dropdown .dropbtn, .footer a {
+    font-size: 40px;
+  }
+
 }
